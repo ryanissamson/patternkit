@@ -38,7 +38,7 @@ class TwigPatternLibraryParser extends PatternLibraryParserBase {
     ThemeManagerInterface $theme_manager) {
 
     $this->serializer = $serializer;
-    parent::__construct($root, $module_handler, $theme_manager);
+    parent::__construct($root, $module_handler, $theme_manager, NULL, NULL);
   }
 
   /**
